@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.jpeg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { TbCertificate } from "react-icons/tb";
+import { PiStudentBold } from "react-icons/pi";
 
 function About() {
   return (
@@ -13,36 +13,33 @@ function About() {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            {" "}
             <img src={ME} alt="about img" />
           </div>
         </div>
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
+              <PiStudentBold className="about_icon" />
+              <h5>GPA of 94</h5>
+              {/* <small>GPA of 94</small> */}
+            </article>
+            <article className="about_card">
+              <TbCertificate className="about_icon" />
+              <h5>2 certificates of excellence</h5>
+              {/* <small>200+ Worldwide</small> */}
+            </article>
+            <article className="about_card">
               <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className="about_card">
-              <VscFolderLibrary className="about_icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>2nd in a project competition</h5>
+              {/* <small>80+ Completed</small> */}
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Self-motivated and highly capable junior software developer looking
+            for employment as a full-stack developer. Eager to contribute my
+            problem-solving abilities, keen attention to detail, as well as
+            communication and interpersonal skills to making a significant
+            impact within your company.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -48,16 +48,16 @@ header {
   font-size: 0.9rem;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
   }
-}
+} */
 
 @media screen and (max-width: 600px) {
-  header {
+  /* header {
     height: 100vh;
-  }
+  } */
 
   .header_socials,
   .scroll_down {

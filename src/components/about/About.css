@@ -67,6 +67,7 @@
 
 .about_content p {
   margin: 2rem 0 2.6rem;
+  font-size: 1.5rem;
   color: var(--color-light);
 }
 
@@ -78,7 +79,7 @@
 
   .about_me {
     width: 50%;
-    margin: 2rem auto 4rem;
+    margin: 3rem auto 6rem;
   }
 
   .about_content p {
@@ -89,7 +90,7 @@
 @media screen and (max-width: 600px) {
   .about_me {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: 1.5rem auto 3.5rem;
   }
   .about_cards {
     grid-template-columns: 1fr 1fr;
