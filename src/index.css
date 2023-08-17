@@ -62,13 +62,13 @@ section {
   margin-top: 8rem;
 }
 
-section > h2,
-section > h5 {
+section .headline-h5,
+section .headline-h2 {
   text-align: center;
   color: var(--color-light);
 }
 
-section > h2 {
+section .headline-h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
