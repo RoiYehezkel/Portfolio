@@ -1,5 +1,5 @@
 # Portfolio
 
-My personal portfolio which features some of my github projects as well as my resume and technical skills.
+My personal portfolio showcases some of my GitHub projects, along with my resume and technical skills.
 
 Link: https://roi-yehezkel.firebaseapp.com/
