@@ -1,4 +1,4 @@
-.testimonials_container {
+.technologies_container {
   width: 40%;
   padding-bottom: 4rem;
 }
@@ -10,10 +10,9 @@
   overflow: hidden;
   border-radius: 10%;
   margin: 0 auto 1rem;
-  /* border: 0.4rem solid var(--color-primary-variant); */
 }
 
-.testimonials {
+.technologies {
   background: var(--color-bg-variant);
   text-align: center;
   padding: 2rem;
@@ -34,13 +33,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .testimonials_container {
+  .technologies_container {
     width: 60%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .testimonials_container {
+  .technologies_container {
     width: var(--container-width-sm);
   }
 

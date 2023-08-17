@@ -4,18 +4,18 @@ import DATA from "./projects.json";
 
 function Projects() {
   return (
-    <section id="portfolio">
+    <section id="projects">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
-      <div className="container portfolio_container">
+      <div className="container projects_container">
         {DATA.map((item) => (
-          <article key={item.id} className="portfolio_item">
-            <div className="portfolio_item-image">
+          <article key={item.id} className="projects_item">
+            <div className="projects_item-image">
               <img src={item.image} alt={item.title} />
             </div>
             <h3>{item.title}</h3>
             <h5>{item.tech}</h5>
-            <div className="portfolio_item-cta">
+            <div className="projects_item-cta">
               {item.github && (
                 <a
                   href={item.github}

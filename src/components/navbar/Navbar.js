@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiMessageDetail } from "react-icons/bi";
 
-function NavBar() {
-  const [activeNav, setActiveNav] = useState("#home");
-
+function NavBar({ activeNav, setActiveNav }) {
   return (
     <nav>
       <a
@@ -26,18 +24,18 @@ function NavBar() {
         <AiOutlineUser />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+        href="#skills"
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
       >
         <BiBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#projects"
+        onClick={() => setActiveNav("#projects")}
+        className={activeNav === "#projects" ? "active" : ""}
       >
-        <RiServiceLine />
+        <AiOutlineFundProjectionScreen />
       </a>
       <a
         href="#contact"

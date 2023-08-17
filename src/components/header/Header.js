@@ -4,7 +4,7 @@ import CTA from "./CTA";
 // import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 
-function Header() {
+function Header({ setActiveNav }) {
   return (
     <header id="home">
       <div className="container header_container">
@@ -16,7 +16,11 @@ function Header() {
         {/* <div className="me">
           <img src={ME} alt="me" />
         </div> */}
-        <a href="#contact" className="scroll_down">
+        <a
+          onClick={() => setActiveNav("#contact")}
+          href="#contact"
+          className="scroll_down"
+        >
           Scroll Down
         </a>
       </div>

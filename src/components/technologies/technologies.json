@@ -7,7 +7,7 @@
   {
     "avatar": "/assets/technologies/node.webp",
     "name": "Node.js",
-    "review": "I favor Node.js for its ability to use JavaScript on the server side, enabling seamless and consistent programming across both frontend and backend development."
+    "review": "I appreciate Node.js for its efficient server-side JavaScript runtime, enabling seamless development across web applications."
   },
   {
     "avatar": "/assets/technologies/mongo.png",
@@ -22,6 +22,6 @@
   {
     "avatar": "/assets/technologies/java.webp",
     "name": "Java",
-    "review": "I enjoy Java for its versatility, allowing me to create powerful and cross-platform applications with its robust object-oriented programming features"
+    "review": "I enjoy Java for its versatility in creating powerful, cross-platform applications through robust object-oriented programming."
   }
 ]

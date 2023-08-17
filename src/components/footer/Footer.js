@@ -18,16 +18,13 @@ function Footer() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#testimonial">Testimonial</a>
+          <a href="#technologies">Technologies</a>
         </li>
         <li>
           <a href="#contact">Contact</a>

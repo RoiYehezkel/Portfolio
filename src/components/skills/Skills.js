@@ -1,99 +1,40 @@
 import React from "react";
 import "./Skills.css";
+import { frontend, backend } from "./data";
 import { BsPatchCheckFill } from "react-icons/bs";
 
 function Skills() {
   return (
-    <section id="experience">
+    <section id="skills">
       <h5>What Skills I Have</h5>
       <h2>My Skills</h2>
-      <div className="container experience_container">
-        <div className="experience_frontend">
+      <div className="container skills_container">
+        <div className="skills_frontend">
           <h3>Frontend Development</h3>
-          <div className="experience_content">
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>TypeScript</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>React Native</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+          <div className="skills_content">
+            {frontend.map((item, index) => (
+              <article key={index} className="skills_details">
+                <BsPatchCheckFill className="skills_details-icon" />
+                <div>
+                  <h4>{item.name}</h4>
+                  <small className="text-light">{item.level}</small>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
-
-        <div className="experience_backend">
+        <div className="skills_backend">
           <h3>Backend Development</h3>
-          <div className="experience_content">
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>Java</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+          <div className="skills_content">
+            {backend.map((item, index) => (
+              <article key={index} className="skills_details">
+                <BsPatchCheckFill className="skills_details-icon" />
+                <div>
+                  <h4>{item.name}</h4>
+                  <small className="text-light">{item.level}</small>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </div>
