@@ -4,12 +4,13 @@
 }
 
 .client_avatar {
+  background: var(--color-white);
   width: 4rem;
   aspect-ratio: 1/1;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 0 auto 1rem;
-  border: 0.4rem solid var(--color-primary-variant);
+  /* border: 0.4rem solid var(--color-primary-variant); */
 }
 
 .testimonials {

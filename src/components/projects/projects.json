@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/projects/logo.png",
+    "title": "The-Guardian",
+    "tech": "React | Node.js | MongoDB | TensorFlow",
+    "frontend": "https://github.com/RoiYehezkel/The-Guardian",
+    "backend": "https://github.com/RoiYehezkel/The-Guardian-Server"
+  },
+  {
+    "id": 2,
+    "image": "/assets/projects/the-avengers.png",
+    "title": "Marvel Website",
+    "tech": "React | Node.js",
+    "github": "https://github.com/RoiYehezkel/Marvel-website",
+    "demo": "https://marvel-website-3bf6f.firebaseapp.com/"
+  },
+  {
+    "id": 3,
+    "image": "/assets/projects/rpg.jpg",
+    "title": "RPG-BATTLE",
+    "tech": "Python",
+    "github": "https://github.com/RoiYehezkel/RPG-BATTLE"
+  },
+  {
+    "id": 4,
+    "image": "/assets/projects/qoi.png",
+    "title": "QOI Compressor",
+    "tech": "Java",
+    "github": "https://github.com/RoiYehezkel/QOICompressor"
+  },
+  {
+    "id": 5,
+    "image": "/assets/projects/expenses.jpg",
+    "title": "Expense-App",
+    "tech": "React Native | Firebase",
+    "github": "https://github.com/RoiYehezkel/Expense-App"
+  },
+  {
+    "id": 6,
+    "image": "/assets/projects/huffman.png",
+    "title": "Huffman Comperssor",
+    "tech": "Java",
+    "github": "https://github.com/RoiYehezkel/HuffmanCode"
+  },
+  {
+    "id": 7,
+    "image": "/assets/projects/dungeons.png",
+    "title": "Dungeons",
+    "tech": "Java",
+    "github": "https://github.com/RoiYehezkel/Dungeons"
+  },
+  {
+    "id": 8,
+    "image": "/assets/projects/blog.jpg",
+    "title": "My-Blog",
+    "tech": "Python | Django",
+    "github": "https://github.com/RoiYehezkel/My-Blog"
+  }
+]

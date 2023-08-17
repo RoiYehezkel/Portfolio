@@ -5,6 +5,7 @@
 }
 
 .portfolio_item {
+  position: relative;
   background: var(--color-bg-variant);
   padding: 1.3rem;
   border-radius: 2rem;
@@ -23,13 +24,20 @@
 }
 
 .portfolio_item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 0.3rem;
+}
+
+.portfolio_item h5 {
+  color: var(--color-primary);
+  margin-bottom: 5rem;
 }
 
 .portfolio_item-cta {
+  position: absolute;
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  bottom: 1%;
 }
 
 @media screen and (max-width: 1024px) {

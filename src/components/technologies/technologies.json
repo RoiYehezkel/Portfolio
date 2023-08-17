@@ -1,0 +1,27 @@
+[
+  {
+    "avatar": "/assets/technologies/react.webp",
+    "name": "React",
+    "review": "I favor React for its efficient and modular approach to building user interfaces, enhancing the overall user experience of web applications."
+  },
+  {
+    "avatar": "/assets/technologies/node.webp",
+    "name": "Node.js",
+    "review": "I favor Node.js for its ability to use JavaScript on the server side, enabling seamless and consistent programming across both frontend and backend development."
+  },
+  {
+    "avatar": "/assets/technologies/mongo.png",
+    "name": "MongoDB",
+    "review": "I value MongoDB for its flexible and scalable document-based structure, simplifying the storage and retrieval of data in a variety of applications."
+  },
+  {
+    "avatar": "/assets/technologies/python.png",
+    "name": "Pyhton",
+    "review": "I appreciate Python for its simplicity, readability, and extensive libraries that enable me to quickly develop a wide range of applications."
+  },
+  {
+    "avatar": "/assets/technologies/java.webp",
+    "name": "Java",
+    "review": "I enjoy Java for its versatility, allowing me to create powerful and cross-platform applications with its robust object-oriented programming features"
+  }
+]

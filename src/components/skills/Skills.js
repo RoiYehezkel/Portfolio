@@ -1,8 +1,8 @@
 import React from "react";
-import "./Experience.css";
+import "./Skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
-function Experience() {
+function Skills() {
   return (
     <section id="experience">
       <h5>What Skills I Have</h5>
@@ -101,4 +101,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Skills;

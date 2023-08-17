@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/me-about.jpeg";
 import { FaAward } from "react-icons/fa";
 import { TbCertificate } from "react-icons/tb";
 import { PiStudentBold } from "react-icons/pi";
@@ -13,7 +12,7 @@ function About() {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src={ME} alt="about img" />
+            <img src="/assets/about/me-about.jpeg" alt="about img" />
           </div>
         </div>
         <div className="about_content">
