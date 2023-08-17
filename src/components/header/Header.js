@@ -1,10 +1,13 @@
 import React from "react";
 import "./Header.css";
 import CTA from "./CTA";
-// import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
+import { navActions } from "../../store/index";
+import { useDispatch } from "react-redux";
 
-function Header({ setActiveNav }) {
+function Header() {
+  const dispatch = useDispatch();
+
   return (
     <header id="home">
       <div className="container header_container">
@@ -17,7 +20,7 @@ function Header({ setActiveNav }) {
           <img src={ME} alt="me" />
         </div> */}
         <a
-          onClick={() => setActiveNav("#contact")}
+          onClick={() => dispatch(navActions.setActiveNav("#contact"))}
           href="#contact"
           className="scroll_down"
         >

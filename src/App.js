@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import About from "./components/about/About";
@@ -9,11 +8,10 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 function App() {
-  const [activeNav, setActiveNav] = useState("#home");
   return (
     <>
-      <Header setActiveNav={setActiveNav} />
-      <Navbar activeNav={activeNav} setActiveNav={setActiveNav} />
+      <Header />
+      <Navbar />
       <About />
       <Skills />
       <Projects />

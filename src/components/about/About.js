@@ -4,8 +4,12 @@ import { FaAward } from "react-icons/fa";
 import { TbCertificate } from "react-icons/tb";
 import { PiStudentBold } from "react-icons/pi";
 import Animation from "../Animation";
+import { navActions } from "../../store/index";
+import { useDispatch } from "react-redux";
 
 function About() {
+  const dispatch = useDispatch();
+
   return (
     <section id="about">
       <Animation>
@@ -42,7 +46,11 @@ function About() {
               as well as communication and interpersonal skills to making a
               significant impact within your company.
             </p>
-            <a href="#contact" className="btn btn-primary">
+            <a
+              href="#contact"
+              className="btn btn-primary"
+              onClick={() => dispatch(navActions.setActiveNav("#contact"))}
+            >
               Let's Talk
             </a>
           </div>
