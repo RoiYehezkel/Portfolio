@@ -13,10 +13,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_a63vhdd",
-        "template_zjw82fc",
+        process.env.REACT_APP_SERVIECE,
+        process.env.REACT_APP_TEMPLATE,
         form.current,
-        "yGFDg_gz0yBcvACEC"
+        process.env.REACT_APP_KEY
       )
       .then(
         (result) => {
