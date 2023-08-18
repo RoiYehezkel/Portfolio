@@ -3,8 +3,11 @@ import "./Footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import { useDispatch } from "react-redux";
+import { navActions } from "../../store/index";
 
 function Footer() {
+  const dispatch = useDispatch();
   return (
     <footer>
       <a href="#home" className="footer_logo">
@@ -12,22 +15,47 @@ function Footer() {
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#home">Home</a>
+          <a
+            href="#home"
+            onClick={() => dispatch(navActions.setActiveNav("#home"))}
+          >
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a
+            href="#about"
+            onClick={() => dispatch(navActions.setActiveNav("#about"))}
+          >
+            About
+          </a>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <a
+            href="#skills"
+            onClick={() => dispatch(navActions.setActiveNav("#skills"))}
+          >
+            Skills
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a
+            href="#projects"
+            onClick={() => dispatch(navActions.setActiveNav("#projects"))}
+          >
+            Projects
+          </a>
         </li>
         <li>
           <a href="#technologies">Technologies</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a
+            href="#contact"
+            onClick={() => dispatch(navActions.setActiveNav("#contact"))}
+          >
+            Contact
+          </a>
         </li>
       </ul>
 
