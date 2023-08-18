@@ -38,7 +38,17 @@ function Projects() {
                     Demo
                   </a>
                 )}
-
+                {item.download && (
+                  <a
+                    href={item.download}
+                    download
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Download
+                  </a>
+                )}
                 {item.frontend && (
                   <a
                     href={item.frontend}

@@ -27,6 +27,7 @@
     "image": "/assets/projects/qoi.png",
     "title": "QOI Compressor",
     "tech": "Java",
+    "download": "/assets/projects/QOICompressor.jar",
     "github": "https://github.com/RoiYehezkel/QOICompressor"
   },
   {
