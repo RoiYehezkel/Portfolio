@@ -57,5 +57,13 @@
     "title": "My-Blog",
     "tech": "Python | Django",
     "github": "https://github.com/RoiYehezkel/My-Blog"
+  },
+  {
+    "id": 9,
+    "image": "/assets/projects/spotify.png",
+    "title": "Music App",
+    "tech": "React | TypeScript | Spotify Api",
+    "github": "https://github.com/RoiYehezkel/Music-App",
+    "demo": "https://music-app-a37eb.firebaseapp.com/"
   }
 ]
