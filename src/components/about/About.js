@@ -40,11 +40,11 @@ function About() {
               </article>
             </div>
             <p>
-              Self-motivated and highly capable junior software developer
-              looking for employment as a full-stack developer. Eager to
-              contribute my problem-solving abilities, keen attention to detail,
-              as well as communication and interpersonal skills to making a
-              significant impact within your company.
+              A strong Backend Developer specializing in building scalable
+              applications using Node.js, Express, MongoDB, and more. Proficient
+              in writing, reading, and understanding code, and capable of
+              performing accurate code analysis. Dedicated to continuous
+              learning and staying up to date with emerging technologies
             </p>
             <a
               href="#contact"

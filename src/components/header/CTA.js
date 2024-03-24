@@ -7,7 +7,7 @@ function CTA() {
 
   return (
     <div className="cta">
-      <a href="/assets/about/cv.docx" download className="btn">
+      <a href="/assets/about/cv.pdf" download className="btn">
         Download CV
       </a>
       <a
